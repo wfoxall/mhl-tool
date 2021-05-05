@@ -95,6 +95,8 @@ int print_mhlseal_help()
       "      Prints status and result.\n"
       "   -vv, --very-verbose\n"
       "      Same as -v, additionally prints progress.\n"
+      "   -nl, --no-log\n"
+      "      Suppress logging output to MHL file. Only applicable if -v or -vv used.\n"
 //      "   -y\n"
 //      "      Produce an output in a machine readable format. See help on output.\n\n"
       "\n"
