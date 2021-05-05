@@ -54,6 +54,10 @@ recognise_option(const char* option_nm)
   {
     return OPT_VV;
   }
+  else if (strcmp(option_nm, "-nl") == 0 || strcmp(option_nm, "--no-log") == 0)
+  {
+    return OPT_NL;
+  }
   else if (strcmp(option_nm, "-o") == 0 || strcmp(option_nm, "--output-folder") == 0)
   {
     return OPT_O;

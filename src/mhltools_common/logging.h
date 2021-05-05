@@ -47,6 +47,9 @@ typedef struct _st_verbose_data
 
   // is used to flag if the output shall be in a machine-readable form
   unsigned char machine_output;
+  
+  // is used to flag if the logging information should be excluded from the .mhl file (console only)
+  unsigned char no_log;
 
   char* log_str;
   size_t log_str_capacity;

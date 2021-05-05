@@ -50,7 +50,8 @@ typedef enum _en_opts
   OPT_VER,
   OPT_M,
   OPT_C,
-  NOT_OPT
+  NOT_OPT,
+  OPT_NL
 } en_opts;
 
 en_opts 

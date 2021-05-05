@@ -546,7 +546,7 @@ print_creator_info(
     return ERRCODE_IO_ERROR;
   }
 
-  if (v_data->verbose_level && v_data->log_str_len != 0)
+  if (v_data->verbose_level && v_data->log_str_len != 0 && v_data->no_log != 1)
   {
     
     res = 

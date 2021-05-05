@@ -523,6 +523,10 @@ int parse_seal_params(int argc, const char* argv[],
       opts->common.logging_data.v_data.verbose_level = VL_VERY_VERBOSE;
       break;
 
+    case OPT_NL:
+      opts->common.logging_data.v_data.no_log = 1;
+      break;
+
     case OPT_Y:
       opts->common.logging_data.v_data.machine_output = 1;
       break;
