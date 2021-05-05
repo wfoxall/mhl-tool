@@ -13,3 +13,4 @@ profile
 
 bin
 *.pyc
+dev_envs/**/build
